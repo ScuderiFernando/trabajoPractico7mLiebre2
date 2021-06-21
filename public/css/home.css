@@ -1,3 +1,5 @@
+/* --- MOBILE --- */
+
 .home{
     font-family: "Roboto";
     background-color: var(--color-grisClaro);
@@ -7,7 +9,6 @@
 
 .home header{
     background-color: var(--color-amarillo);
-    padding-bottom: 10px;
 }
 
 .home header img{
@@ -20,6 +21,15 @@ margin: 10px auto 10px;
     text-align: center;
 }
 
+.home .cuotas{
+    display: block;
+    text-align: center;
+}
+
+.home header .navSitio, .navUsuario{
+    display: none;
+}
+
 .home header p{
     text-align: center;
     font-size: 14px;
@@ -28,6 +38,7 @@ margin: 10px auto 10px;
 }
 
 .home header ul{
+    margin: 10px 0;
     list-style-type: none;
 }
 .home header a{
@@ -45,11 +56,55 @@ margin: 10px auto 10px;
     border: none;
 }
 
+.home .banner img{
+    width: 100%;
+    display: block;
+}
 
 /* Main */
 
+.home main{
+    width:90%;
+    margin: 0px auto 0px;
+}
+
+.home main img{
+    height: 200px;
+    width: 200px;
+    margin: 5px auto 5px;
+    display: block;
+}
+
+.home main article{
+    margin: 10px auto 10px;
+    background-color: white;
+}
+
+.home main i{
+    color: green;
+    padding: 15px;
+    border: 1px var(--color-verde) solid ;
+    border-radius: 50%;
+}
+
+.home main span{
+    color: var(--color-verde)
+}
+
+.home main h4{
+    color: var(--color-grisOscuro);
+    margin: 5px 0;
+    display: none;
+}
+
+.home main section{
+    border: #ebebeb solid 1px;
+    padding: 15px;
+}
 .home main h3{
     font-size: 24px;
+    color: var(--color-grisOscuro);
+    text-align: center;
 }
 
 .home main h4,span{
@@ -58,11 +113,7 @@ font-size: 16px;
 
 .home main p{
     font-size: 18px;
-}
-
-.home .banner{
-    height: 65px;
-    width: 100%;
+    font-weight: 600;
 }
 
 /* Footer*/
@@ -100,3 +151,51 @@ font-size: 16px;
     margin-bottom: 10px;
 }
     
+
+
+/* --- TABLET --- */
+
+@media (min-width: 361px){
+
+    /*Header*/
+
+    .home header .navSitio, .navUsuario{
+        display: block;
+    }
+
+    .home .burgerMenu{
+        display: none;
+}
+
+.home .banner img{
+    height: 100px;
+}
+
+/* Main*/
+
+.home main article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 49.5%;
+    display: inline-block;
+}
+
+.home main h4{
+    display: block;
+}
+
+}
+
+/* --- DESKTOP --- */
+@media (min-width: 769px){
+
+    .home .banner img{
+        height: 150px;
+    }
+
+    /* Main*/
+    .home main h3{
+        font-size: 24px;
+        margin: 40px auto;
+    }
+    
+}
