@@ -1,0 +1,102 @@
+.home{
+    font-family: "Roboto";
+    background-color: var(--color-grisClaro);
+}
+
+/*Header*/
+
+.home header{
+    background-color: var(--color-amarillo);
+    padding-bottom: 10px;
+}
+
+.home header img{
+    height: 70px;
+    display: block;
+margin: 10px auto 10px;
+}
+
+.home header .busqueda{
+    text-align: center;
+}
+
+.home header p{
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+.home header ul{
+    list-style-type: none;
+}
+.home header a{
+    text-decoration: none;
+}
+
+.home .burgerMenu{
+    display: block;
+    font-size: 20px;
+    background-color: var(--color-celeste);
+    color: var(--color-grisClaro);
+    padding: 6px 8px;
+    border-radius: 6px;
+    margin: 20px auto;
+    border: none;
+}
+
+
+/* Main */
+
+.home main h3{
+    font-size: 24px;
+}
+
+.home main h4,span{
+font-size: 16px;
+}
+
+.home main p{
+    font-size: 18px;
+}
+
+.home .banner{
+    height: 65px;
+    width: 100%;
+}
+
+/* Footer*/
+
+.home footer{
+    color: var(--color-grisOscuro);
+    text-align: center;
+    background-color: white;
+}
+
+.home footer h4{
+    margin-bottom: 0px;
+}
+.home footer p{
+    margin-top: 0px;
+}
+.home footer section{
+    margin: 40px;
+}
+
+.fa-credit-card{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.fa-gift{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.fa-user-shield{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+    
