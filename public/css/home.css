@@ -59,6 +59,7 @@ margin: 10px auto 10px;
 .home .banner img{
     width: 100%;
     display: block;
+    height: auto;
 }
 
 /* Main */
@@ -78,6 +79,11 @@ margin: 10px auto 10px;
 .home main article{
     margin: 10px auto 10px;
     background-color: white;
+}
+
+.home main article img{
+    width: 100%;
+    height: auto;
 }
 
 .home main i{
@@ -167,10 +173,6 @@ font-size: 16px;
         display: none;
 }
 
-.home .banner img{
-    height: 100px;
-}
-
 /* Main*/
 
 .home main article{
@@ -188,9 +190,6 @@ font-size: 16px;
 /* --- DESKTOP --- */
 @media (min-width: 769px){
 
-    .home .banner img{
-        height: 150px;
-    }
 
     /* Main*/
     .home main h3{
@@ -198,4 +197,7 @@ font-size: 16px;
         margin: 40px auto;
     }
     
+    .home main article{
+        width: 24%;
+    }
 }
